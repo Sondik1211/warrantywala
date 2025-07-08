@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warranty wala</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Warranty logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#serve">Service</a></li>
+                    <li><a href="https://forms.gle/i16qAKusUpAHEuCk6" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Now Save Your Warranty Card with me </h1>
+            <p>It ia an online service platform which provides facility to save your warranty card. </p>
+            <a href="https://forms.gle/yT5jfb8Tr52xW6669" target="_blank" class="hero-btn">Save Card</a>
+        </div>
+    </section>
+
+    <!-----services----------->
+
+    <section class="service" id="serve">
+        <h1>OUR SERVICES</h1>
+        <p>We care your warranty cards like cards of electrical appliances, cards of any types of batteries, cards/bills
+            of motor vehicles etc.If you save your card with us then in future if you need then we will help you with
+            your card. So please give us a chance. </p>
+        <div class="row">
+            <div class="service-col">
+                <h3>Electric Appliances</h3>
+                <p>Like Fan, Cooler, AC, Refrigerator, washing Machine etc.
+                </p>
+            </div>
+            <div class="service-col">
+                <h3>Warranty Batteries</h3>
+                <p>Inverter Batteries, Bike Batteries, Four-Wheeler Batteries and any other warranty batteries.
+                </p>
+            </div>
+            <!-- <div class="service-col">
+                <h3>DEFENCE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, deserunt architecto illum enim
+                    dolorem rem obcaecati ullam voluptatum. Corporis, iusto.
+                </p>
+            </div> -->
+            <div class="service-col">
+                <h3>Warranty Bills</h3>
+                <p>.Bills of Electrical Appliances, Bills of Batteries, Bills of vehicles etc.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial -->
+    <section class="testimonial">
+        <h1>What Our Customers says</h1>
+        <p>Customers opinion and experience:-</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <div>
+                    <p>Hi, Myself Santosh I had bought a washing machine one year ago with three years warranty but it
+                        is not working properly now and i have lost warranty paper. Then i got warranty paper through
+                        warranty wala because I had saved warrant paper on warranty wala platform. so i can say that it
+                        is very helpful. </p>
+                    <h3>Santosh Kumar</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <div>
+                    <p>Hello, i am simran. "Warranty wala" is an awesome service platform, i have experienced it and
+                        it is totaly fast and secure.</p>
+                    <h3>Simran Kumari</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- book service -->
+    <section class="book-service">
+        <h1>Save your warrant card/bill soon with "Warranty wala" </h1>
+        <a href="https://forms.gle/yT5jfb8Tr52xW6669" target="_blank" class="hero-btn">Save Card</a>
+    </section>
+
+    <!-- book service -->
+    <section class="footer" id="about">
+        <h4>About Us</h4>
+        <p>"Warranty wala" is a start-up business started by software engineers. it's aim to serve people and
+            generate revenue. So give one chance to serve you.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>copyright &copy Made with <i class="fa-solid fa-heart"></i> by Rahul Sondik</p>
+    </section>
+
+
+    <!---------Javascript for toggle menu---------->
+    <script src="https://kit.fontawesome.com/0466a268be.js" crossorigin="anonymous"></script>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
